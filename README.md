@@ -22,8 +22,7 @@ NOTE: In order to use command line for this project, make sure that environment 
   - $ mvn clean install
   - Generated jar file is under directory "target": ToyRobotSimulator.jar
 ### 3. Move to the target directory and execute generated jar file
-  - $ cd target
-  - $ java -jar ToyRobotSimulator.jar "testdata/singleMove.txt"
+  - $ java -jar target/ToyRobotSimulator.jar "testdata/singleMove.txt"
   - sample above that goes with the project should output something like below:
 
 ```
